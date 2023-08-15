@@ -12,15 +12,15 @@ var iva=0.19*subtotal;
 var total=subtotal+iva;
 }
 while(confirm("desea agregar otro producto"));
-document.write("FABRINOX SA");
-document.write("pedido CCO001");
-document.write("cliente:"+nombreCliente);
-document.write("Nit:"+NitCliente);
-document.write("Subtotal:$"+subtotal);
-document.write("Impuestos 19%:$"+iva);
-document.write("Total:$"+total);
+document.write("FABRINOX SA"+"<br>");
+document.write("pedido CCO001"+"<br>");
+document.write("cliente:"+nombreCliente+"<br>");
+document.write("Nit:"+NitCliente+"<br>");
+document.write("Subtotal:$"+subtotal+"<br>");
+document.write("Impuestos 19%:$"+iva+"<br>");
+document.write("Total:$"+total+"<br>");
 
 
 
 
-console.log("profe tenga piedad apenas estoy aprendiendo a programar")
+console.log("profe tenga piedad apenas estoy aprendiendo a programar");

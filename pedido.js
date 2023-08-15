@@ -1,4 +1,3 @@
-const Pedido=("pedido");
 var nombreCliente=prompt("Cliente");
 var NitCliente=prompt("Nit");
 var subtotal=0
@@ -20,3 +19,8 @@ console.log("Nit:"+NitCliente);
 console.log("Subtotal:$"+subtotal);
 console.log("Impuestos 19%:$"+iva);
 console.log("Total:$"+total);
+
+
+
+
+console.log("profe tenga piedad apenas estoy aprendiendo a programar")
